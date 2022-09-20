@@ -102,20 +102,31 @@ body{
  ----------------------*/
 
  .btn{
-   padding: 6px 10px;
+   padding: 10px 15px;
    background-color: transparent;
-   border-radius: 25px;
+   border-radius: 30px;
+   border: none;
  }
 
  .header-top .btn{
    background-color: #F6F6F6;
-   border: 1px solid;
+   font-size: x-small;
+   font-weight: 500;
+   padding: 8px 15px;
  }
 
- .btn-header{
-   padding: 15px 0 115px 0;
+.header-bottom .btn{
+   margin:5px;
  }
 
+ .white{
+   background-color: #F6F6F6;
+ }
+
+ .grey{
+   background-color: #23272A;
+   color: #F6F6F6;
+ }
 
  /*-----------------------
  HEADER
@@ -140,6 +151,10 @@ body{
     justify-content: center;
     align-items: center;
     padding-top: 150px;
+ }
+
+ .btn-header-row{
+   padding: 15px 0 115px 0;
  }
 
  .logo, .login{
@@ -177,6 +192,7 @@ body{
  .slogan p{
    padding-top: 30px;
    max-width:900px;
+   text-align: center;
  }
 
  /*-----------------------
