@@ -1,0 +1,222 @@
+
+/*-----------------------
+ RESET 
+ ----------------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------
+ DEBUG
+ ----------------------*/
+
+ .debug header{
+    background-color: #add8e6;
+ }
+
+ .debug .header-top{
+    background-color: #daa520;
+    padding: 5px;
+    margin-bottom: 16px;
+    height: 50px;
+    border: 2px dashed;
+ }
+
+ .debug .slogan{
+   border: 2px dashed;
+ }
+
+ .debug .header-bottom{
+    background-color: #00008b;
+    height: 500px;
+ }
+
+ .debug .slogan{
+    background-color: #ee82ee;
+ }
+
+ .debug .col-big{
+    background-color: #1e90ff;
+    height: 500px;
+    border: 2px dashed;
+ }
+
+ .debug .col-small{
+    background-color: #ffc0cb;
+    height: 500px;
+    border: 2px dashed;
+ }
+
+ .debug .last-page{
+    background-color: #228b22;
+    height: 800px;
+    border: 2px dashed;
+ }
+
+.debug footer{
+    background-color: #23272a;
+}
+
+.debug .f-col-big{
+    background-color: #f08080;
+    border: 2px dashed;
+}
+
+.debug .f-col-small{
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
+
+.debug .sezione-finale{
+   background-color: aquamarine;
+   height: 50px;
+}
+
+.debug .sezione-finale a{
+   border: 1px dashed;
+ }
+
+ .debug .slogan{
+      height: 400px;
+      width: 900px;
+ }
+
+ /*-----------------------
+ COMMON
+ ----------------------*/
+ 
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+ /*-----------------------
+ BUTTON
+ ----------------------*/
+
+ .btn{
+   padding: 6px 10px;
+   background-color: transparent;
+   border-radius: 25px;
+ }
+
+ .header-top .btn{
+   background-color: #F6F6F6;
+ }
+
+
+ /*-----------------------
+ HEADER
+ ----------------------*/
+
+ header{
+    padding: 25px 0 0 0;
+ }
+
+ .header-top{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .header-bottom{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .logo, .login{
+   width: 20%;
+ }
+
+ .login{
+   text-align: right;
+ }
+
+ .main-nav{
+   width: 60%;
+ }
+
+ .main-nav ul{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+ }
+
+ .main-nav ul li{
+   margin: 0 10px;
+ }
+
+ .main-nav ul li a{
+   text-decoration: none;
+   color: inherit;
+ }
+
+ /*-----------------------
+ MAIN
+ ----------------------*/
+
+ section{
+    padding: 50px 0;
+ }
+
+ .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .col-big{
+    width: 60%;
+ }
+
+ .col-small{
+    width: 40%;
+ }
+
+ section:nth-child(2n){
+    background-color: #d3d3d3;
+ }
+
+ .last-page{
+    width: 100%;
+ }
+
+ /*-----------------------
+ FOOTER
+ ----------------------*/
+
+ footer{
+    padding-top: 3px;
+ }
+
+ #footer-section{
+   padding: 50px 0 0 0;
+ }
+
+ .footer-top{
+    display: flex;
+    height: 800px;
+    padding: 5px 0 65px 0;
+ }
+
+ .f-col-big{
+    width: calc(100%/3);
+ }
+ .f-col-small{
+    width: calc(100%/6);
+ }
+
+ .sezione-finale{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+ }
+
+ .separatore{
+    border-top: 1px solid grey;
+    margin-bottom: 20px;
+ }
