@@ -108,7 +108,7 @@ THYPOGRAPHY
  ----------------------*/
 
 p{
-   font-size: 18px;
+   font-size: 19px;
    line-height: 160%;
  }
 
@@ -141,21 +141,26 @@ header h1{
  ----------------------*/
 
  .btn{
-   padding: 10px 15px;
    background-color: transparent;
    border-radius: 30px;
    border: none;
+   padding: 15px 25px;
+   font-size: 18px;
  }
 
  .header-top .btn{
    background-color: #F6F6F6;
-   font-size: x-small;
-   font-weight: 500;
-   padding: 8px 15px;
+   padding:12px 15px;
+   font-size: 15px;
  }
 
 .header-bottom .btn{
    margin:5px;
+ }
+
+ main .btn{
+   padding: 15px 25px;
+   font-size: 18px;
  }
 
  .white{
@@ -170,6 +175,8 @@ header h1{
  .purple{
    background-color: #7289DA;
    color: #F6F6F6;
+   padding:12px 15px;
+   font-size: 15px;
  }
 
  /*-----------------------
@@ -226,7 +233,7 @@ header h1{
  .main-nav ul li a{
    text-decoration: none;
    color: inherit;
-   font-size: smaller;
+   font-size: 17px;
  }
 
  .slogan{
@@ -234,7 +241,7 @@ header h1{
  }
 
  .slogan p{
-   padding-top: 30px;
+   padding: 30px 0;
    max-width:900px;
    text-align: center;
  }
@@ -293,6 +300,7 @@ header h1{
     padding-top: 3px;
     background-color: #23272a;
     color:white;
+    font-size:17px;
  }
 
  .footer-top{
