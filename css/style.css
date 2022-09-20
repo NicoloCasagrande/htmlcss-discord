@@ -112,6 +112,21 @@ THYPOGRAPHY
    margin-bottom: 20px;
  }
 
+ main h3{
+   font-size:27px;
+ }
+
+ footer h4{
+   font-size: 25px;
+   padding-bottom: 20px;
+   color: #7289DA;
+ }
+
+ footer h5{
+   font-size: 15px;
+   color: #7289DA;
+ }
+
  /*-----------------------
  BUTTON
  ----------------------*/
@@ -140,6 +155,11 @@ THYPOGRAPHY
 
  .grey{
    background-color: #23272A;
+   color: #F6F6F6;
+ }
+ 
+ .purple{
+   background-color: #7289DA;
    color: #F6F6F6;
  }
 
@@ -231,11 +251,20 @@ THYPOGRAPHY
  }
 
  section:nth-child(2n){
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
  }
 
  .last-page{
     width: 100%;
+    flex-direction: column;
+    text-align: center;
+ }
+
+ .avventura{
+   background-image: url("../img/stars.svg");
+   background-position: center center; 
+   background-size: 100% 100%;
+   padding: 50px;
  }
 
  /*-----------------------
@@ -244,23 +273,45 @@ THYPOGRAPHY
 
  footer{
     padding-top: 3px;
- }
-
- #footer-section{
-   padding: 50px 0 0 0;
+    background-color: #23272a;
+    color:white;
  }
 
  .footer-top{
     display: flex;
-    height: 800px;
     padding: 5px 0 65px 0;
  }
 
  .f-col-big{
     width: calc(100%/3);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
  }
+
+ .bandiera{
+   padding-bottom: 15px;
+ }
+
+ .f-col-big img{
+   width: 20px;
+ }
+
  .f-col-small{
     width: calc(100%/6);
+ }
+
+ .f-col-small ul{
+   list-style: none;
+ }
+
+ .f-col-small ul li{
+   padding: 8px 0;
+ }
+.f-col-small ul li a{
+   text-decoration: none;
+   color: white;
+   font-weight: smaller;
  }
 
  .sezione-finale{
