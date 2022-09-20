@@ -150,8 +150,8 @@ header h1{
 
  .header-top .btn{
    background-color: #F6F6F6;
-   padding:12px 15px;
-   font-size: 15px;
+   padding:10px 13px;
+   font-size: 13px;
  }
 
 .header-bottom .btn{
@@ -175,8 +175,8 @@ header h1{
  .purple{
    background-color: #7289DA;
    color: #F6F6F6;
-   padding:12px 15px;
-   font-size: 15px;
+   padding:10px 13px;
+   font-size: 13px;
  }
 
  /*-----------------------
