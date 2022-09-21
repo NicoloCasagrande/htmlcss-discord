@@ -9,10 +9,6 @@
     padding: 0;
 }
 
-body{
-   font-family: 'Roboto', sans-serif;
-}
-
 /*-----------------------
  DEBUG
  ----------------------*/
@@ -106,6 +102,10 @@ body{
  /*-----------------------
 THYPOGRAPHY
  ----------------------*/
+
+ body{
+   font-family: 'Roboto', sans-serif;
+}
 
 p{
    font-size: 19px;
